@@ -54,6 +54,7 @@ static void test_parse() {
     TEST_ERROR(LEPT_NULL, "null");
     TEST_ERROR(LEPT_TRUE, "true");
     TEST_ERROR(LEPT_FALSE,"false");
+    ///5555
 }
 
 int main(){
