@@ -60,6 +60,7 @@ int main(){
     test_parse();
     test_parse(); // 1
     test_parse(); // 222
+    test_parse(); // 333
 
     printf("%d/%d (%3.2f%%) passed\n", test_pass, test_count, test_pass * 100.0 / test_count);
     return main_ret;
