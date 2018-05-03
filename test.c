@@ -54,11 +54,20 @@ static void test_parse() {
     TEST_ERROR(LEPT_NULL, "null");
     TEST_ERROR(LEPT_TRUE, "true");
     TEST_ERROR(LEPT_FALSE,"false");
+<<<<<<< HEAD
     ///5555
+=======
+
+    //111
+>>>>>>> 18985b524b5bf49a0e09532ac81a9a39b17cca8a
 }
 
 int main(){
     test_parse();
+    test_parse(); // 1
+    test_parse(); // 222
+    test_parse(); // 333
+
     printf("%d/%d (%3.2f%%) passed\n", test_pass, test_count, test_pass * 100.0 / test_count);
     return main_ret;
 }
